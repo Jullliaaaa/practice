@@ -1,15 +1,12 @@
 #include<iostream>
-#include<math.h>                   // <--------
+#include<math.h>                   
 using namespace std;
 
-int main()
-{
+int main(){
     float x;
 
-    while( cin >> x )
-    {
-        cout << sqrt(x) << endl;   // <--------
-    }
+    while( cin >> x ) {
+        cout << sqrt(x) << endl;  }
 
     return 0;
 }
